@@ -1,0 +1,5 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- Name: First_run_time
+  Type: NetLogic

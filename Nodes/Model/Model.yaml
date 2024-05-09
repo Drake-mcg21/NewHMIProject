@@ -1,0 +1,93 @@
+Name: Model
+Id: g=9558339e4df00cdc02ca7d6ea9033d30
+Type: ModelCategoryFolder
+Children:
+- Name: Ingredient01
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 2
+- Name: Ingredient02
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 3
+  Children:
+  - Name: Ingredient01
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Ingredient1
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Ingredient03
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 2
+  Children:
+  - Name: Ingredient01
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Ingredient1
+    Type: BaseDataVariableType
+    DataType: Int32
+- Name: Motor1Alarm
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Children:
+  - Name: Ingredient01
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Ingredient1
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Ingredient03
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: Ingredient01
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Ingredient1
+      Type: BaseDataVariableType
+      DataType: Int32
+  - Name: Ingredient2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: Ingredient01
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Ingredient1
+      Type: BaseDataVariableType
+      DataType: Int32
+- Name: Temperature
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: Ingredient01
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Ingredient1
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: Ingredient03
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: Ingredient01
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Ingredient1
+      Type: BaseDataVariableType
+      DataType: Int32
+  - Name: Ingredient2
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: Ingredient01
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Ingredient1
+      Type: BaseDataVariableType
+      DataType: Int32
+- Name: ToggleStyleSheet
+  Type: BaseDataVariableType
+  DataType: Boolean

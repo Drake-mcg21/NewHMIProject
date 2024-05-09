@@ -1,0 +1,85 @@
+Name: Recipes
+Type: FolderType
+Children:
+- Name: RecipeSchema1
+  Id: g=fb362079ba0d52d9543516be115c1d4f
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Ingredient01
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Ingredient02
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Ingredient03
+      Type: BaseDataVariableType
+      DataType: Int32
+  - Class: Reference
+    Target: ns=25;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=60
+    Direction: Forward
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/NewHMIProject/Model"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/NewHMIProject/DataStores/RecipeDB"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: EditModel
+    Id: g=4f77da5f60f56073564735a506e456d7
+    Type: BaseObjectType
+    Children:
+    - Name: Ingredient01
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Ingredient02
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Ingredient03
+      Type: BaseDataVariableType
+      DataType: Int32
